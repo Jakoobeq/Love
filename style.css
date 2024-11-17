@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: pink;
+}
+
+.quote-box{
+    font-family: "Libre Baskerville", serif;
+    background: whitesmoke;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.quote-box h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.quote-box h2::after{
+    content:'';
+    width: 450px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(157, 198, 241);
+    position:absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote-box blockquote{
+    font-size: 26px;
+    min-height: 110px;
+}
+.quote-box blockquote::before, .quote-box blockquote::after{
+    content: '"'
+}
+
+.quote-box img{
+    size: 20px;
+}
+
+
+.quote-box div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.quote-box button{
+    background-color: rgb(241, 181, 229);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    justify-content: center;
+}
