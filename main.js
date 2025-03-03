@@ -8,7 +8,7 @@ quotes = [
     "It's amazing how I know you so short time, yet im at peace and I know I can trust you with everything. That whatever doors we will face we will open them together.",
     "My little princess I love you in every minute I have, I love you most basic simple and pure form of love that doesnt judge. I love you for everything you are, and for everything you are not.",
     "Baby I desire you because i deeply miss you when I can't talk with you, or see you. I am obsessed with you and I love it. Let's be obssesed with each other whole life.",
-    "My sweet sweet Mada, I cannot wait to travel whole world to be able to hold you in my arms, to feel your warmth, to taste your lips and smell your skin, I cannot wait for our reunionmoon, it will be epic. Trully time of my life.",
+    "My sweet sweet baby, I cannot wait to travel whole world with you, to be able to hold you in my arms, to feel your warmth, to taste your lips and smell your skin, I cannot wait for our meeting, it will be epic. Trully time of my life.",
 ];
 
 quotes[0]
